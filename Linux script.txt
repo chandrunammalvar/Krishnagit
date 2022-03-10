@@ -46,3 +46,14 @@ How to install a tomcat server to ec2:
 4. Have the tomcat website open ready and Under download menu select any version of Tomcat. Then right click on the tar.gz under binary distributions and select copy link address. 
 5. 
 
+
+***************************************************************
+
+Some of the GIT commands
+
+Beginning on GIT and GIT hub: 
+GIT INIT ( Initialize the GIT repo)
+GIT STATUS ( Which will show the info on the repo)
+GIT ADD ( This will add the new file to the staging area)
+GIT COMMIT -m “Message to display”
+

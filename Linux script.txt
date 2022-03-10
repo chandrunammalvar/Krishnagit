@@ -1,0 +1,48 @@
+
+
+Take a . war apache server 
+web url in docker
+connect mongo db or rds
+
+
+Create an Ec2 instance.
+Check with the security group. 
+Then after logging in to the instance 
+
+>> sudo yum -y install httpd
+This command will install the HTTP deamon
+>> sudo service httpd start
+This commance will start the installed service 
+>> cd /var/www/html
+This will create a file called html
+>> ls -lrt
+This will show the list of files in the directory
+
+ideally this should be 0
+
+Then type in the below code
+>>sudo su
+>> echo "<html><head> Hellp Prem </head></html>" >hello.html
+>> ls -lrt
+This will now show the file
+
+>>cat hello.html
+THis will show the content of the file. 
+
+Then copy the public ip address and open the link in the browser in thebelow format. 
+
+Public ip/hello.html
+
+
+*********************************************************************************
+https://github.com/awstechguide/scripts/blob/master/README.md
+
+
+How to install a tomcat server to ec2:
+
+1. Launch the Ec2 instance with linux AMI
+2. >> sudo yum update
+3. >> sudo su - ( This is to switch the user to root user)
+4. Have the tomcat website open ready and Under download menu select any version of Tomcat. Then right click on the tar.gz under binary distributions and select copy link address. 
+5. 
+
